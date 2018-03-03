@@ -1,6 +1,6 @@
 **Название статьи:** How to solve 90% of NLP problems: a step-by-step guide
 
-**Ссылка:**https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+**Ссылка:** https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
 
 **Короткое резюме:**
 В статье приведена технология решения задач анализа текстов.
