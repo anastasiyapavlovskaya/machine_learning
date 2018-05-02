@@ -13,14 +13,14 @@
 	Ну и по сути мы не рекомендательныю систему оцениваем, а умение предсказывать рейтинг.
 - Точность ранжирования
 	Суть состоит в том, что мы сортируем все объекты по предсказанному рейтингу и считаем, насколько хорошо у нас получилось отранжировать.
-	[Корреляция Спирмена](http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BE%D1%8D%D1%84%D1%84%D0%B8%D1%86%D0%B8%D0%B5%D0%BD%D1%82_%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D0%B8_%D0%A1%D0%BF%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%B0) 
-	[К-т корреляции Пирсона](http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BE%D1%8D%D1%84%D1%84%D0%B8%D1%86%D0%B8%D0%B5%D0%BD%D1%82_%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D0%B8_%D0%9F%D0%B8%D1%80%D1%81%D0%BE%D0%BD%D0%B0)
-	[К-т корреляции Кенделла](http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BE%D1%8D%D1%84%D1%84%D0%B8%D1%86%D0%B8%D0%B5%D0%BD%D1%82_%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D0%B8_%D0%9A%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%BB%D0%B0) 
+	- [Корреляция Спирмена](http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BE%D1%8D%D1%84%D1%84%D0%B8%D1%86%D0%B8%D0%B5%D0%BD%D1%82_%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D0%B8_%D0%A1%D0%BF%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%B0) 
+	- [К-т корреляции Пирсона](http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BE%D1%8D%D1%84%D1%84%D0%B8%D1%86%D0%B8%D0%B5%D0%BD%D1%82_%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D0%B8_%D0%9F%D0%B8%D1%80%D1%81%D0%BE%D0%BD%D0%B0)
+	- [К-т корреляции Кенделла](http://www.machinelearning.ru/wiki/index.php?title=%D0%9A%D0%BE%D1%8D%D1%84%D1%84%D0%B8%D1%86%D0%B8%D0%B5%D0%BD%D1%82_%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D0%B8_%D0%9A%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%BB%D0%B0) <br>
 	Очевидный минус: далеко не всегда можно получить список объектов, отранжированный реальным пользователем.
 - Полнота и точность предсказания
 	Всё то же самое, что и точность и полнота в обычном понимании. Здесь же можно смотреть на ROC кривую (Кстати, при оценке двух рекомендательных систем нельзя смотреть только на ROC, намного безопаснее смотреть на метрики @k).
 	+ Precision@k
-	+ Recall@k
+	+ Recall@k <br>
 	Почитать подробно можно вот тут: https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54
 
 Есть очень [крутая презентация](http://soc-research.org/wp-content/uploads/2014/11/OfflineTest4RS.pdf), в которой хорошо рассказывается про разные оффлайн метрики и их применение. Здесь же немного более формально говорят про то, как мерять разнообразие рекомендаций, их новизну.
@@ -28,5 +28,4 @@
 
 **Немного информации о рекомендательных системах**
 - [Несколько тщательно разобранных примеров построения content based рекомендательных систем](https://www.analyticsvidhya.com/blog/2015/08/beginners-guide-learn-content-based-recommender-systems/)
-
 - [Введение в рекомендательные системы, коллаборативная фильтрация, алгоритм SVD разложения](https://habr.com/company/yandex/blog/241455/)
